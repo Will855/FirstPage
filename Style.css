@@ -1,0 +1,15 @@
+* {
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 15px;
+}
