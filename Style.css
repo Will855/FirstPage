@@ -20,13 +20,29 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     padding: 15px;
     margin: 2rem 0 2rem 0;
 }
 .nav > li > a {
+    font-size: 18px;
 	text-decoration: none;
 	color: aliceblue;
+}
+.nav > li > a:hover {
+	text-decoration: underline;
+	color: rgb(138, 144, 148);
+}
+.name {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#profile {
+ max-width: 150px;
+ max-height: 150px;
+ border-radius: 20%;
 }
 /*article*/
 .section { 
@@ -34,14 +50,21 @@ h1 {
     margin: 10px;
 }
 /*Job Experience*/
+#JEBx { 
+    display: grid;
+    justify-items: center;
+    margin-top: 5rem;
+}
 #JEBx > h3 {
+    font-size: 25px;
 	text-align: center;
 	margin: 5px 0 25px 0;
 }
 .Job-experience {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	gap: 25px;
+    max-width: 80%;
 }
 .Job-experience > div > p {
 	text-align: justify;
@@ -50,7 +73,14 @@ h1 {
 	margin: 10px 0 10px 0;
 }
 /*Studies*/
+#studiesBx {
+    display: grid;
+    justify-content: center;
+    margin: 5rem;
+    max-width: 80%;
+}
 #studiesBx > h3 {
+    font-size: 25px;
 	text-align: center;
 	margin: 5px 0 25px 0;
 }
@@ -66,11 +96,18 @@ h1 {
 	margin: 10px 0 10px 0;
 }
 /*Habilities*/
-#habilitiesBx > h3 {
-		margin: 10px 0 10px 0;
+#habilitiesBx {
+    display: grid;
+    justify-content: center;
+    margin: 0 5rem 2rem 5rem;
 }
-#habilitiesBx > p {
-	text-align: justify;
+#habilitiesBx > h3 {
+    text-align: center;
+    font-size: 25px;
+	margin: 10px 0 10px 0;
+}
+#habilitiesBx > ul > li {
+	margin: 30px 0 0px 0;
 }
 /*footer*/
 footer {
@@ -79,13 +116,19 @@ footer {
 .social-media {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-content: center;
     list-style-type: none;
-    padding: 15px;
+    min-height: 8rem;
 }
 .social-media > li {
     margin: 0px 5px 0px 5px;
 }
 .social-media > li > a {
+    font-size: 16px;
 	text-decoration: none;
+}
+.social-media > li > a:hover {
+	text-decoration: underline;
+	color: rgb(138, 144, 148);
 }
