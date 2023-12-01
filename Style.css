@@ -24,12 +24,54 @@ h1 {
     padding: 15px;
     margin: 2rem 0 2rem 0;
 }
+.nav > li > a {
+	text-decoration: none;
+	color: aliceblue;
+}
 /*article*/
 .section { 
     padding: 10px;
     margin: 10px;
 }
-
+/*Job Experience*/
+#JEBx > h3 {
+	text-align: center;
+	margin: 5px 0 25px 0;
+}
+.Job-experience {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 25px;
+}
+.Job-experience > div > p {
+	text-align: justify;
+}
+.Job-experience > div > h3 {
+	margin: 10px 0 10px 0;
+}
+/*Studies*/
+#studiesBx > h3 {
+	text-align: center;
+	margin: 5px 0 25px 0;
+}
+.studies {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 25px;
+}
+.studies > div > p {
+	text-align: justify;
+}
+.studies > div > h3 {
+	margin: 10px 0 10px 0;
+}
+/*Habilities*/
+#habilitiesBx > h3 {
+		margin: 10px 0 10px 0;
+}
+#habilitiesBx > p {
+	text-align: justify;
+}
 /*footer*/
 footer {
     margin: 2rem 0 0 0;
@@ -43,4 +85,7 @@ footer {
 }
 .social-media > li {
     margin: 0px 5px 0px 5px;
+}
+.social-media > li > a {
+	text-decoration: none;
 }
